@@ -18,11 +18,11 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 210 11% 15%;
 
-    /* Navy blue primary for professional transport feel */
-    --primary: 213 94% 18%;
+    /* Orange primary for Aqas Transport */
+    --primary: 24 100% 50%;
     --primary-foreground: 0 0% 100%;
-    --primary-light: 213 94% 25%;
-    --primary-dark: 213 94% 12%;
+    --primary-light: 24 100% 60%;
+    --primary-dark: 24 100% 40%;
 
     --secondary: 210 17% 95%;
     --secondary-foreground: 210 11% 15%;
@@ -30,7 +30,7 @@ All colors MUST be HSL.
     --muted: 210 17% 95%;
     --muted-foreground: 210 11% 46%;
 
-    --accent: 213 94% 18%;
+    --accent: 24 100% 50%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
@@ -38,7 +38,7 @@ All colors MUST be HSL.
 
     --border: 210 20% 90%;
     --input: 210 20% 90%;
-    --ring: 213 94% 18%;
+    --ring: 24 100% 50%;
 
     --radius: 0.5rem;
 
@@ -143,6 +143,12 @@ All colors MUST be HSL.
   }
   
   .hero-gradient {
-    background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--primary-light)) 100%);
+    background: linear-gradient(135deg, hsl(24 100% 45%) 0%, hsl(20 100% 50%) 50%, hsl(16 100% 55%) 100%);
+  }
+
+  .transport-pattern {
+    background-image: 
+      radial-gradient(circle at 25% 25%, hsl(24 100% 60% / 0.1) 0%, transparent 50%),
+      radial-gradient(circle at 75% 75%, hsl(16 100% 60% / 0.1) 0%, transparent 50%);
   }
 }

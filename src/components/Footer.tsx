@@ -38,7 +38,7 @@ const Footer = () => {
               <div className="flex items-center justify-center w-10 h-10 bg-white/10 rounded-lg">
                 <Truck className="w-6 h-6" />
               </div>
-              <span className="text-xl font-bold">TransportPro</span>
+              <span className="text-xl font-bold">Aqas Transport</span>
             </div>
             <p className="text-primary-foreground/80 mb-6 leading-relaxed">
               Professional transport solutions with over 15 years of experience. 
@@ -51,7 +51,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="w-4 h-4" />
-                <span>info@transportpro.com</span>
+                <span>info@aqastransport.com</span>
               </div>
               <div className="flex items-center space-x-2">
                 <MapPin className="w-4 h-4" />
@@ -122,7 +122,7 @@ const Footer = () => {
         <div className="border-t border-white/10 py-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-primary-foreground/80 text-sm">
-              © {currentYear} TransportPro. All rights reserved.
+              © {currentYear} Aqas Transport. All rights reserved.
             </p>
             <div className="flex space-x-6 text-sm">
               <a href="#" className="text-primary-foreground/80 hover:text-white transition-colors">
