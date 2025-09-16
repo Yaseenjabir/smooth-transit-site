@@ -13,39 +13,9 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-primary via-primary/90 to-primary/80">
-      {/* Animated Background Pattern */}
-      <div className="absolute inset-0">
-        <div className="absolute inset-0 opacity-20">
-          <div className="absolute inset-0" style={{
-            backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`
-          }}></div>
-        </div>
-      </div>
-
+    <section className="relative min-h-screen flex items-center justify-center pt-20 bg-gradient-to-br from-primary via-primary/90 to-primary/80">
       {/* Dark overlay */}
-      <div className="absolute inset-0 bg-black/40"></div>
-
-      {/* Animated Transport Icons */}
-      <div className="absolute inset-0 overflow-hidden">
-        {/* Moving truck animation */}
-        <div className="absolute top-1/3 left-0 w-full">
-          <div className="animate-[slide-truck_20s_linear_infinite] flex items-center">
-            <Truck className="w-8 h-8 text-white/20 mr-4" />
-            <div className="h-0.5 bg-white/20 w-32"></div>
-          </div>
-        </div>
-        
-        {/* Road lines */}
-        <div className="absolute bottom-32 left-0 w-full h-1 bg-gradient-to-r from-transparent via-white/30 to-transparent"></div>
-        <div className="absolute bottom-28 left-0 w-full">
-          <div className="animate-[road-lines_3s_linear_infinite] flex space-x-8">
-            {Array.from({ length: 20 }).map((_, i) => (
-              <div key={i} className="h-0.5 w-8 bg-white/40"></div>
-            ))}
-          </div>
-        </div>
-      </div>
+      <div className="absolute inset-0 bg-black/30"></div>
 
       {/* Main Content */}
       <div className="relative z-10 container mx-auto px-6 text-center text-white max-w-5xl">

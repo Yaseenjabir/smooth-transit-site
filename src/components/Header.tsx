@@ -73,19 +73,37 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Mobile Menu */}
+      {/* Mobile Overlay */}
+      {isMenuOpen && (
+        <div 
+          className="fixed inset-0 bg-black/50 z-40 md:hidden"
+          onClick={() => setIsMenuOpen(false)}
+        />
+      )}
+
+      {/* Mobile Menu - Sliding from right */}
       <div
-        className={`md:hidden bg-background border-t border-border transition-all duration-300 ${
-          isMenuOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0 overflow-hidden"
+        className={`fixed top-0 right-0 h-full w-80 bg-background shadow-2xl z-50 transform transition-transform duration-300 ease-in-out md:hidden ${
+          isMenuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
-        <nav className="container mx-auto px-4 py-4 space-y-4">
+        <div className="flex items-center justify-between p-4 border-b border-border">
+          <span className="text-lg font-semibold text-foreground">Menu</span>
+          <button
+            onClick={() => setIsMenuOpen(false)}
+            className="p-2 text-foreground hover:text-primary transition-colors"
+          >
+            <X className="w-6 h-6" />
+          </button>
+        </div>
+        
+        <nav className="p-4 space-y-4">
           {navItems.map((item) => (
             <Link
               key={item.label}
               to={item.href}
               onClick={() => setIsMenuOpen(false)}
-              className="block text-foreground hover:text-primary transition-colors duration-200 font-medium py-2"
+              className="block text-foreground hover:text-primary transition-colors duration-200 font-medium py-3 px-2 rounded-lg hover:bg-muted"
             >
               {item.label}
             </Link>
@@ -95,7 +113,7 @@ const Header = () => {
               navigate('/contact');
               setIsMenuOpen(false);
             }}
-            className="w-full bg-primary hover:bg-primary/90 text-primary-foreground mt-4"
+            className="w-full bg-primary hover:bg-primary/90 text-primary-foreground mt-6"
           >
             Book Now
           </Button>
