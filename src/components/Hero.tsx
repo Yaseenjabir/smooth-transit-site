@@ -49,7 +49,7 @@ const Hero = () => {
               size="lg" 
               variant="outline" 
               onClick={() => navigate('/contact')}
-              className="border-2 border-white text-white hover:bg-white hover:text-primary text-lg px-10 py-4 font-semibold transition-all duration-300 backdrop-blur-sm"
+              className="border-2 border-white text-white hover:bg-white hover:text-primary text-lg px-10 py-4 font-semibold transition-all duration-300 backdrop-blur-sm bg-transparent"
             >
               <Phone className="mr-3 w-6 h-6" />
               Get a Quote
