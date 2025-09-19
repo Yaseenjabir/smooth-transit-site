@@ -1,0 +1,59 @@
+[33mcommit cf5bcf21c5d92859bda4affac0aea8053283a8c3[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: gpt-engineer-app[bot] <159125892+gpt-engineer-app[bot]@users.noreply.github.com>
+Date:   Tue Sep 16 11:12:12 2025 +0000
+
+    Refine hero section design
+
+[33mcommit 5d5ce192980affe40d6e446592e89092c5f86227[m
+Author: gpt-engineer-app[bot] <159125892+gpt-engineer-app[bot]@users.noreply.github.com>
+Date:   Tue Sep 16 07:43:56 2025 +0000
+
+    Add scroll to top on route change
+
+[33mcommit 842580b4b6b0a4bff52b714d4877fc7eaae75cca[m
+Author: gpt-engineer-app[bot] <159125892+gpt-engineer-app[bot]@users.noreply.github.com>
+Date:   Tue Sep 16 07:37:31 2025 +0000
+
+    Fix hero section UI
+
+[33mcommit 2a104ebccc32411e510102417ce3609a120109f1[m
+Author: gpt-engineer-app[bot] <159125892+gpt-engineer-app[bot]@users.noreply.github.com>
+Date:   Tue Sep 16 07:36:07 2025 +0000
+
+    Fix hero section button color
+
+[33mcommit ba8ac503d0b1bb6b4d49f2e3f8389e99a0dd9b7b[m
+Author: gpt-engineer-app[bot] <159125892+gpt-engineer-app[bot]@users.noreply.github.com>
+Date:   Tue Sep 16 07:33:51 2025 +0000
+
+    Fix header and mobile menu styling
+
+[33mcommit 7273f3e0b8048e566f994dbd62a62b398ecaa770[m
+Author: gpt-engineer-app[bot] <159125892+gpt-engineer-app[bot]@users.noreply.github.com>
+Date:   Tue Sep 16 07:28:33 2025 +0000
+
+    Refactor Hero and Mobile Menu
+
+[33mcommit df50923258fd2d1c0a913075294ff9f1bf752114[m
+Author: gpt-engineer-app[bot] <159125892+gpt-engineer-app[bot]@users.noreply.github.com>
+Date:   Sun Sep 14 06:00:41 2025 +0000
+
+    Refine hero section design
+
+[33mcommit c9bebf545bc0e7d5fa9c69b5ab052a74dacfc4a0[m
+Author: gpt-engineer-app[bot] <159125892+gpt-engineer-app[bot]@users.noreply.github.com>
+Date:   Sun Sep 14 05:56:15 2025 +0000
+
+    Refactor: Update website for Aqas Transport
+
+[33mcommit afe01fcece74e6c030ea260bdc9f4cb5820c4d9b[m
+Author: gpt-engineer-app[bot] <159125892+gpt-engineer-app[bot]@users.noreply.github.com>
+Date:   Sat Sep 13 09:55:17 2025 +0000
+
+    Create transport service website
+
+[33mcommit 8724736df44eeee5470522363a5be5349fd79297[m
+Author: gpt-engineer-app[bot] <159125892+gpt-engineer-app[bot]@users.noreply.github.com>
+Date:   Sat Sep 13 09:52:35 2025 +0000
+
+    [skip lovable] Use tech stack vite_react_shadcn_ts_20250728_minor
